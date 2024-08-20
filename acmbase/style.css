@@ -40,6 +40,7 @@ header
 	background: transparent;
 	padding: 30px 18%;
 	transition: 0.3s;
+
 }
 .logo
 {
@@ -55,15 +56,16 @@ header
 .logo img
 {
 	max-width: 100%;
-	width: 130px;
+	width: 75px;
 	height: auto;
 	transition: 0.3s;
 }
 .logo img:hover
 {
-	width: 160px;
+	width: 80px;
 	transition: 0.3s;
 	height: auto;
+
 }
 .navlist
 {
@@ -210,12 +212,17 @@ span
 {
 	transform: scale(1.1);
 }
+.home-img
+{ 	width: 600px;
+	/* border:solid green; */
+}
 .home-img img
 {
 	max-width: 100%;
-	width: 540px;
+	/* width: 860px; */
 	height: auto;
-	border-radius: 50px;
+	border-radius: 12px;
+	/* border:solid red; */
 }
 header.sticky
 {
@@ -647,7 +654,7 @@ header.sticky
 	}
 }
 
-@media (max-width: 800px)
+@media (max-width: 780px)
 {
 	.home
 	{
